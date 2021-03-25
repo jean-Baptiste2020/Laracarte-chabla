@@ -1,4 +1,6 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title'=>'About'])
+
+
 
 @section('content')
 <div class="container">
@@ -13,7 +15,7 @@
         </div>
 
         <p>Feel free to help to improve the
-            <a href="#">
+            <a href="https://github.com/jean-Baptiste2020/Laracarte-chabla">
                 <>source code.
             </a>
         </p>

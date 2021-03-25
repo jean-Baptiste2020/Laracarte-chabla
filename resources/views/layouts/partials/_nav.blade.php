@@ -10,11 +10,11 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
+                    <a class="nav-link  {{liHelpers('home')}}" aria-current="page" href="{{route('home')}}">Home</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="{{route('about')}}">About</a>
+                <li class="nav-item ">
+                    <a class="nav-link {{liHelpers('about')}}" href="{{route('about')}}">About</a>
                 </li>
 
                 <li class="nav-item">
